@@ -1,0 +1,2 @@
+starting time is Mon Dec 6 20:32:19 EST 2021
+slurmstepd: error: *** JOB 6816313 ON gal-c1 CANCELLED AT 2021-12-06T20:52:21 DUE TO TIME LIMIT ***

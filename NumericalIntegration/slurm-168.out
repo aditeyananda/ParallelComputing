@@ -1,0 +1,6 @@
+cc -O3 -std=c11 -fPIC   -c -o prelim.o prelim.c
+prelim.c: In function ‘main’:
+prelim.c:6:2: warning: implicit declaration of function ‘gethostname’ [-Wimplicit-function-declaration]
+  gethostname(hostname, size);
+  ^~~~~~~~~~~
+g++  prelim.o -o prelim
